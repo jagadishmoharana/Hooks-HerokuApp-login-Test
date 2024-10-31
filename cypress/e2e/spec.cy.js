@@ -18,7 +18,6 @@ describe('Login page Test', () => {
         cy.wrap(emailInput).should('exist');
       } else {
         cy.log('Email input field with placeholder "Enter your email" is missing');
-        // Optional: Additional actions if the field is missing
       }
     })
   })
